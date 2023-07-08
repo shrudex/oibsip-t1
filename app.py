@@ -12,10 +12,10 @@ st.title("🌼Iris Flower Classification")
 st.write("*Made with ❤️‍🔥 by Shrudex👨🏻‍💻*")
 
 #taking the input from user
-newSL = st.number_input("Enter sepal length (cm):", min_value=0.0)
-newSW = st.number_input("Enter sepal width (cm):", min_value=0.0)
-newPL = st.number_input("Enter petal length (cm):", min_value=0.0)
-newPW = st.number_input("Enter petal width (cm):", min_value=0.0)
+newSL = st.number_input("Enter sepalLength (cm):", min_value=0.0)
+newSW = st.number_input("Enter sepalWidth (cm):", min_value=0.0)
+newPL = st.number_input("Enter petalLength (cm):", min_value=0.0)
+newPW = st.number_input("Enter petalWidth (cm):", min_value=0.0)
 
 #button to trigger the classification
 if st.button("Classify"):
